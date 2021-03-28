@@ -1,0 +1,561 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#top
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url("watch2.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.top-icon
+{
+    font-size:400%;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+#top h1
+{
+    color: white;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 27%;
+    font-size: 5.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#top p
+{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 35%;
+}
+
+.top-btn
+{
+    position:absolute;
+    margin-top: 430px;
+    margin-left: 39.3%;
+}
+
+.top-btn a
+{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: .5px solid white;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+#text
+{
+    text-align: center;
+    padding-top: 40px;
+}
+#text p
+{
+    font-size: 2.3rem;
+    color: #009688;
+}
+#text h1
+{
+    font-size: 3.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.text2 h1{
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+.text2 p{
+  position: absolute;
+  left:7%;
+  font-size: 1.5rem;
+  
+}
+.img1{
+    width: 35%;
+    float: right;
+    padding-right: 250px;
+    padding-bottom: 80px;
+    border-radius: 20px;
+      
+    }
+
+
+#feature
+{
+    height: 50vh;
+}
+
+#mid
+  {
+      position: relative;
+      top: 1000px;
+      width: 100%;
+      height: 100vh;
+      background-color: rgb(211, 247, 176);
+      text-align: center;
+  }
+.textt p
+{
+    position: relative;
+    top: 90px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+}
+.textt h1
+{
+    position: relative;
+    top: 90px;
+    color: #009688;
+    font-size: 2.3rem;
+}
+
+@media (max-width:370px)
+{
+    #top
+{
+    width:130%;
+    height: 47vh;
+   
+}
+.top-icon
+{
+    font-size:170%;
+    color: white;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 100%;
+    left: 11%;
+}
+
+#top p
+{
+   
+    
+    font-size:  9px;
+    padding-top: 6px;
+    padding-left: 20px;
+   
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 34%;
+    padding-top: 16px;
+}
+.top-btn a
+{
+    width: 48px;
+    height: 5px;
+    font-size: .4rem;
+}
+#text p
+{
+    font-size: 0.6rem;
+    
+}
+#text h1
+{
+    font-size: 0.9rem;
+}
+.text2 h1{
+    font-size: 0.7rem;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.text2 p{
+    font-size: 0.5rem;
+    
+  }
+  .img1{
+    width: 23%;
+    position: relative;
+    padding: 100px;
+      
+    }
+
+    .textt p
+{
+    position: relative;
+    top: 75px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.2rem;
+    left: 30%;
+}
+.textt h1
+{
+    position: relative;
+    top: 80px;
+    color: #009688;
+    font-size: 1.4rem;
+    left: 30%;
+}
+
+}
+
+
+@media (max-width:468px) and (min-width:370px)
+{
+    #top
+{
+    width: 130%;
+    height: 47vh;
+   
+}
+
+.top-icon
+{
+    font-size:200%;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 170%;
+}
+
+#top p
+{
+   
+    
+    font-size:  16px;
+    padding-top: 8px;
+   
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 140px;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+.top-btn a
+{
+    width: 55px;
+    height: 7px;
+    font-size: .5rem;
+}
+#text p
+{
+    font-size: 0.8rem;
+    
+}
+#text h1
+{
+    font-size: 1.2rem;
+}
+.text2 h1{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 110px;
+    padding-bottom: 10px;
+}
+
+.text2 p{
+    font-size: 0.9rem;
+    padding-left: 50px;
+  }
+  .img1{
+    width: 25%;
+position:absolute;
+padding-top: 120px;
+padding-left: 40%;
+      
+    }
+
+    .textt p
+    {
+        position: relative;
+        top: 75px;
+        color: black;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.2rem;
+        left: 2%;
+    }
+    .textt h1
+    {
+        position: relative;
+        top: 80px;
+        color: #009688;
+        font-size: 1.4rem;
+        left: 2%;
+    }
+    
+}
+
+
+
+@media (max-width:640px) and (min-width:470px)
+{
+    #top
+{
+    width: 100%;
+    height: 47vh;
+   
+}
+.top-icon
+{
+    font-size:350%;
+    color: white;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 200%;
+}
+#top p
+{
+   
+    
+    font-size:  21px;
+    padding-top: 6px;
+   
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 170px;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+.top-btn a
+{
+    width: 70px;
+    height: 10px;
+    font-size: .6rem;
+}
+#text p
+{
+    font-size: 1.3rem;
+    
+}
+#text h1
+{
+    font-size: 1.7rem;
+}
+.text2 h1{
+    font-size: 23px;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+
+
+}
+
+@media (max-width:1023px) and (min-width:641px)
+{
+    #top
+{
+    width: 100%;
+    height: 47vh;
+   
+}
+.top-icon
+{
+    font-size:400%;
+    color: white;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 300%;
+}
+#top p
+{
+   
+    
+    font-size:  27px;
+    padding-top: 5px;
+   
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 210px;
+    margin-left: 41%;
+    padding-top: 16px;
+}
+.top-btn a
+{
+    width: 58px;
+    height: 7px;
+    font-size: .7rem;
+}
+#text p
+{
+    font-size: 1.6rem;
+    
+}
+#text h1
+{
+    font-size: 2.2rem;
+}
+.text2 h1{
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+}
+.img1{
+    width: 22%;
+position: absolute;
+padding-top: 18%;
+padding-left: 40%;
+padding-right: 8%;
+border-radius: 10px;
+      
+    }
+    .textt p
+    {
+     
+        position: absolute;
+       margin-left: 10%;
+       padding: 25px;
+    }
+    .textt h1
+    {
+       position: absolute;
+        margin-left: 13%;
+        margin-top: 0%;
+    } 
+}
+
+
+
+@media (width:1024px)
+{
+    #top
+    {
+        width: 100%;
+        height: 50vh;
+       
+    }
+    .top-icon
+    {
+        font-size:400%;
+        color: white;
+        position: fixed;
+        top: 60px;
+        left: 50px;
+    }
+    #top h1
+    {
+        font-size: 300%;
+        margin-left: 10%;
+    }
+    #top p
+    {
+       
+        
+        font-size:  27px;
+        padding-top: 5px;
+       
+    }
+    .top-btn
+    {
+        position:absolute;
+        margin-top: 30%;
+        margin-left: 41%;
+        padding-top: 16px;
+    }
+    .top-btn a
+    {
+        width: 58px;
+        height: 7px;
+        font-size: .7rem;
+    }
+    #text p
+    {
+        font-size: 1.6rem;
+        
+    }
+    #text h1
+    {
+        font-size: 2.2rem;
+    }
+    .text2 h1{
+        font-size: 30px;
+        padding-top: 40px;
+        padding-left: 70px;
+        padding-bottom: 10px;
+    }
+    .img1{
+        width: 20%;
+        float: right;
+        padding-top: 20%;
+        padding-right: 35%;
+        padding-bottom: 80px;
+        border-radius: 20px;
+          
+        }
+
+        .textt p
+        {
+         
+            left: 10%;
+        }
+        .textt h1
+        {
+           
+            left: 10%;
+        } 
+}
+
+
+
+
+
+
+
+
+
+<section id="feature">
+<div id="text">
+    <p>FEATURES</p>
+    <h1>Why Choose Us</h1>
+</div>
+<div class="text2">
+    <h1>Good Product Quality</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Sunt illo commodi nam vel sit dolorem eum
+        <br>impedit facere eaque, quis, possimus asperiores<br> excepturi voluptas nobis minus porro magni
+        molestiae maxime!</p>
+
+
+</div>
+<img class="img1" src="h2.jpg">
+<div class="part2">
+
+
+</div>
+</section>

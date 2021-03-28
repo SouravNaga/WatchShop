@@ -1,0 +1,247 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#top
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url("watch2.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-icon
+{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+#top h1
+{
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 500px;
+    font-size: 5.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
+#top p
+{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 600px;
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 430px;
+    margin-left: 39.3%;
+}
+
+.top-btn a
+{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: .5px solid white;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+#sidenav
+{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    right: -250px;
+    top: 0px;
+    background:#009688;
+    transition: 0.5s;
+}
+nav ul li
+{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 21px;
+    color: white;
+}
+#btn
+{
+    width: 50px;
+    height: 50px;
+    background:#009688;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#btn img{
+    width: 20px;
+    margin-top: 15px;
+
+}
+#text
+{
+    text-align: center;
+    padding-top: 40px;
+}
+#text p
+{
+    font-size: 2.3rem;
+    color: #009688;
+}
+#text h1
+{
+    font-size: 3.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
+.text2 h1{
+    font-size: 30px;
+    padding-top: 140px;
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+.text2 p{
+  position: absolute;
+  left: 250px;
+  font-size: 1.5rem;
+  
+}
+.img1{
+  width: 20%;
+  float: right;
+  padding-right: 250px;
+  padding-bottom: 80px;
+  border-radius: 20px;
+    
+  }
+.img2
+{
+    width:20%;
+    float: left;
+    padding-top: 28%;
+    padding-left: 10%;
+    padding-bottom: 80px;
+    border-radius: 20px;
+}
+.part2 h1
+{
+    position:absolute;
+    top: 220%;
+   left:40%;
+    font-size: 30px;
+}
+.part2 p
+{
+    position:absolute;
+    top: 230%;
+   left:40%;
+   font-size: 1.5rem;
+}
+#text1 p
+{
+    text-align:center;
+    font-size: 2.3rem;
+    color: #009688;
+    position: relative;
+    top: 1000px;
+}
+#text1 h1
+{
+    text-align:center;
+    font-size: 2.3rem;
+    position: relative;
+    top: 1030px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+}
+.bottom
+  {
+      position:relative;
+      top: 700px;
+     
+      background-image: linear-gradient(rgba(250, 218, 218, 0.5),#1843b9),url("watch5.jpg");
+      height: 47%;
+     
+  }
+  .fb
+  {
+    position: relative;  
+    margin: 500px;
+    top: 80px;
+  }
+  .copyright
+  {
+      padding: 70px;
+      color: black;
+  }
+  #mid
+  {
+      position: relative;
+      top: 1000px;
+      width: auto;
+      height: 120vh;
+    
+      text-align: center;
+  }
+.text p
+{
+    position: relative;
+    top: 90px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+}
+.text h1
+{
+    position: relative;
+    top: 90px;
+    color: #009688;
+    font-size: 2.3rem;
+}
+.first
+{
+  
+   width: 420px;
+   position: relative;
+   top: 120px;
+   float: left;
+   margin-left: 10px;
+   border-radius: 30px;
+}
+.sec
+{
+  
+   width: 420px;
+   position: relative;
+   top: 120px;
+   padding-top: 20px;
+   float: left;
+   margin-left: 10px;
+   border-radius: 30px;
+}
+
+@media (max-width:468px)
+{
+    #top h1
+{
+   width:100%;
+   color: black;
+}
+}

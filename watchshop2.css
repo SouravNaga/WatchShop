@@ -1,0 +1,689 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#top
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688),url("watch2.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.top-icon
+{
+    font-size:400%;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+}
+#top h1
+{
+    color: white;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 27%;
+    font-size: 5.5rem;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#top p
+{
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Kalam', cursive;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 35%;
+}
+
+.top-btn
+{
+    position:absolute;
+    margin-top: 430px;
+    margin-left: 39.3%;
+}
+
+.top-btn a
+{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: white;
+    border: .5px solid white;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+#mid
+  {
+      position: relative;
+     
+      width: 100%;
+      height: 105vh;
+      background-image: linear-gradient(rgb(120, 228, 195),#a3aff5);
+      text-align: center;
+  }
+.textt p
+{
+    position: relative;
+    top: 90px;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+}
+.textt h1
+{
+    position: relative;
+    top: 90px;
+    color: #009688;
+    font-size: 2.3rem;
+}
+.container_marketing
+{
+    position: relative;
+    top: 100px;
+}
+.container_marketing h2
+{
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(27, 5, 63);
+}
+#contact
+{
+   
+    background-image: linear-gradient(rgba(250, 218, 218, 0.5),#1843b9),url("watch5.jpg");
+    height: 70vh;
+}
+.fb
+{
+  position: relative;  
+  top: 80px;
+  padding-left: 30%;
+}
+.fb2
+{
+  position: relative;  
+  top: 7px;
+  padding-left: 42%;
+}
+.copyright
+{
+    padding-top: 5%;
+    padding-left: 30%;
+    color: black;
+}
+@media (max-width:370px) and (min-width:281px)
+{
+    #top
+{
+    width:100%;
+    height: 47vh;
+   
+}
+.fb
+{
+  position: relative;  
+  top: 20px;
+  padding-left: 100px;
+}
+.fb2
+{
+  position: relative;  
+  top: 20px;
+  padding-left: 0%;
+}
+#contact
+{
+   
+    position: relative;
+    margin-top: 870px;
+    height: 50vh;
+    width: 100%;
+}
+#tes
+{
+    width: 100%;
+}
+#mid
+{
+    width: 100%;
+}
+.top-icon
+{
+    font-size:170%;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 100%;
+    left: 11%;
+}
+
+#top p
+{
+   
+    
+    font-size:  9px;
+    padding-top: 6px;
+    padding-left: 20px;
+   
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 34%;
+    padding-top: 16px;
+}
+.top-btn a
+{
+    width: 48px;
+    height: 5px;
+    font-size: .4rem;
+}
+
+    .textt p
+{
+    position:absolute;
+    color: blue;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.2rem;
+    left: 35%;
+}
+.textt h1
+{
+    position: relative;
+    top: 60px;
+    color: #009688;
+    font-size: 1.4rem;
+    left: 18px;
+}
+#first
+{
+    width: 100%;
+}
+}
+
+
+@media (max-width:468px) and (min-width:370px)
+{
+    #top
+{
+    width: 130%;
+    height: 47vh;
+   
+}
+#contact
+{
+   
+    position: relative;
+    margin-top: 810px;
+    height: 50vh;
+}
+.fb
+{
+  position: relative;  
+  top: 70px;
+  padding-left: 110px;
+}
+.fb2
+{
+  position: relative;  
+  top: 60px;
+  padding-left: 10px;
+}
+.copyright
+{
+    position: relative;
+    top: 12%;
+    padding-left: 20%;
+}
+.top-icon
+{
+    font-size:200%;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 170%;
+}
+
+#top p
+{
+   
+    
+    font-size:  16px;
+    padding-top: 8px;
+   
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 140px;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+.top-btn a
+{
+    width: 55px;
+    height: 7px;
+    font-size: .5rem;
+}
+
+    .textt p
+    {
+        position: relative;
+        top: 75px;
+        color: black;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.2rem;
+        left: 2%;
+    }
+    .textt h1
+    {
+        position: relative;
+        top: 80px;
+        color: #009688;
+        font-size: 1.4rem;
+        left: 2%;
+    }
+    
+}
+
+
+
+@media (max-width:640px) and (min-width:470px)
+{
+    #top
+{
+    width: 100%;
+    height: 47vh;
+   
+}
+.top-icon
+{
+    font-size:350%;
+    color: white;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 200%;
+}
+#top p
+{
+   
+    
+    font-size:  21px;
+    padding-top: 6px;
+   
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 170px;
+    margin-left: 35%;
+    padding-top: 20px;
+}
+.top-btn a
+{
+    width: 70px;
+    height: 10px;
+    font-size: .6rem;
+}
+#text p
+{
+    font-size: 1.3rem;
+    
+}
+
+}
+
+@media (max-width:1023px) and (min-width:641px)
+{
+    #top
+{
+    width: 80%;
+    height: 47vh;
+   
+}
+#first
+{
+    width: 80%;
+}
+#tes
+{
+    width: 65%;
+}
+#tes img
+{
+    width: 60%;
+}
+#tes h2
+{
+    font-size: 1.2rem;
+}
+#tes p
+{
+    font-size: 1rem;
+}
+#tes2
+{
+    position:relative;
+    right: 30px;
+    
+}
+.top-icon
+{
+    font-size:400%;
+    color: white;
+    position: fixed;
+    top: 60px;
+    left: 50px;
+}
+#top h1
+{
+    font-size: 300%;
+    position: absolute;
+    right: 350px;
+    top: 5px;
+}
+#top p
+{
+   position: absolute;
+    
+    font-size:  27px;
+    text-align: center;
+    margin-left: 150px;
+    top: 50px;
+}
+.top-btn
+{
+    position:absolute;
+    margin-top: 210px;
+    margin-left: 27%;
+    padding-top: 16px;
+}
+#mid
+{
+    height: 170vh;
+}
+#men
+{
+    padding-top: 120px;
+    position: relative;
+    right: 70px;
+}
+.top-btn a
+{
+    width: 58px;
+    height: 7px;
+    font-size: .7rem;
+}
+
+    .textt p
+    {
+     
+        position: absolute;
+       margin-left: 10%;
+       padding: 25px;
+    }
+    .textt h1
+    {
+       position: absolute;
+        margin-left: 13%;
+        margin-top: 0%;
+    } 
+    .fb
+{
+  position: relative;  
+  top: 80px;
+  padding-left: 14%;
+}
+.fb2
+{
+  position: relative;  
+  top: 7px;
+  padding-left: 35%;
+}
+.copyright
+{
+    padding-left: 10%;
+}
+#contact
+{
+    height: 40vh;
+}
+}
+
+
+
+@media (width:1024px)
+{
+    #top
+    {
+        width: 82%;
+        height: 50vh;
+       
+    }
+    #first
+{
+    width: 85%;
+}
+#men
+{
+    width: 88%;
+}
+#tes
+{
+    width: 80%;
+}
+#tes img
+{
+    width: 55%;
+}
+#tes h2
+{
+    font-size: 1.2rem;
+  
+}
+#tes p
+{
+    font-size: 1rem;
+}
+    .top-icon
+    {
+        font-size:400%;
+        color: white;
+        position: fixed;
+        top: 60px;
+        left: 50px;
+    }
+    #top h1
+    {
+        font-size: 300%;
+     
+        position: absolute;
+        margin-left: 27%;
+    }
+    #top p
+    {
+       
+        
+        font-size:  27px;
+        padding-top: 5px;
+        position: absolute;
+        margin-left: 30%;
+       
+    }
+    .top-btn
+    {
+        position:absolute;
+        margin-top: 30%;
+        margin-left: 36%;
+        padding-top: 16px;
+    }
+    .top-btn a
+    {
+        width: 58px;
+        height: 7px;
+        font-size: .7rem;
+    }
+    
+
+        .textt p
+        {
+         
+            left: 10%;
+        }
+        .textt h1
+        {
+           
+            left: 10%;
+        } 
+       #mid
+       {
+           width: 85%;
+           height: 80vh;
+       }
+       .fb
+       {
+         position: relative;  
+         top: 80px;
+         padding-left: 17%;
+       }
+       .fb2
+       {
+         position: relative;  
+         top: 7px;
+         padding-left: 38%;
+       }
+       .copyright
+       {
+           padding-left: 14%;
+           font-size: 1.4rem;
+       }
+       #mid h1
+       {
+           left: 10px;
+       }
+       #mid p
+       {
+           left: 23px;
+       }
+       #contact
+       {
+           height: 30vh;
+           width: 85%;
+       }
+}
+
+
+
+
+@media (max-width:280px)
+{
+        #top
+    {
+        width:110%;
+        height: 47vh;
+       
+    }
+    #first
+    {
+        width: 110%;
+    }
+    .fb
+    {
+      position: relative;  
+      top: 20px;
+      padding-left: 1px;
+    }
+    .copyright
+       {
+           padding-left: 12%;
+           font-size: 1.2rem;
+       }
+    .fb2
+    {
+      position: absolute;  
+      top: 20px;
+      padding-left: 1px;
+    }
+    #contact
+    {
+       
+        position: relative;
+        margin-top: 870px;
+        height: 50vh;
+        width: 110%;
+    }
+    
+    .top-icon
+    {
+        font-size:170%;
+        color: white;
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
+    #top h1
+    {
+        font-size: 100%;
+        left: 11%;
+    }
+    
+    #top p
+    {
+       
+        
+        font-size:  9px;
+        padding-top: 6px;
+        padding-left: 20px;
+       
+    }
+    .top-btn
+    {
+        position:absolute;
+        margin-top: 100px;
+        margin-left: 34%;
+        padding-top: 16px;
+    }
+    .top-btn a
+    {
+        width: 48px;
+        height: 5px;
+        font-size: .4rem;
+    }
+    
+        .textt p
+    {
+        position:absolute;
+        color: blue;
+        font-family: 'Kaushan Script', cursive;
+        font-size: 1.2rem;
+        left: 35%;
+    }
+    .textt h1
+    {
+        position: relative;
+        top: 60px;
+        color: #009688;
+        font-size: 1.4rem;
+        left: 18px;
+    }
+}
